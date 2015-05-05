@@ -1,0 +1,50 @@
+<html>
+<head>
+ <title>crn map</title>
+ <link rel="stylesheet" href="./leaflet/leaflet.css" />
+ <link rel="stylesheet" href="./leaflet/leaflet.label.css" />
+ <script type="text/javascript" src="./leaflet/leaflet.js"></script>
+ <script type="text/javascript" src="./leaflet/leaflet.label.js"></script>
+ <script type="text/javascript" src="./jquery/jquery-2.1.3.min.js"></script>
+ <script type="text/javascript" src="./multigraph/multigraph-nojq-min-5.1.1.js"></script>
+ <script type="text/javascript" src="./crn.js"></script>
+<style type="text/css">
+.graph-popup div.leaflet-popup-content {
+  width: 800px;
+  height: 320px;
+  text-align: center;
+}
+div.leaflet-popup-content {
+  margin: 5px;
+}
+.graph-popup h4 {
+  margin: 0;
+}
+body, html, #map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.header > .title {
+  margin: 0 auto;
+  width: 420px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 25px;
+}
+.header > .title h1 {
+  padding: 7px;
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="header"><div class="title"><h1>Climate Reference Network</h1></div></div>
+<body>
+</html>
