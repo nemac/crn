@@ -42,7 +42,7 @@ function generate_mugl(stidx) {
             "max": f.format(maxDate),
             "title": "",
             "labels": {
-                "format": "%h:00%L%d %n%L%Y",
+                "format": "%h:%i%L%d %n%L%Y",
                 "start": "0",
                 "angle": 0,
                 "anchor": [0,1],
